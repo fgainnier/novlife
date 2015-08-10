@@ -1,6 +1,15 @@
 $body-bg: #ecf0f1;
-$navbar-default-bg: #bdc3c7;
+$navbar-default-bg: #FFFFFF;
 $navbar-default-link-color: #000000;
-$jumbotron-bg: white;
+$jumbotron-bg: #FFFFFF;
 
 @import  'bootstrap';
+
+
+.center{
+	text-align: center;
+}
+
+.navbar-brand {
+	font-weight: bold;
+}

@@ -1,10 +1,90 @@
-$body-bg: #ecf0f1;
+$body-bg: #FFFFFF;
 $navbar-default-bg: #FFFFFF;
 $navbar-default-link-color: #000000;
-$jumbotron-bg: #FFFFFF;
+$font-family-sans-serif: "Raleway", "Source sans pro", "Karla", "Helvetica Neue", Helvetica, Arial, sans-serif;
+$btn-border-radius-large: 1px;
+$btn-border-radius-small: 1px;
+$btn-border-radius: 1px;
 
 @import  'bootstrap';
 
+.alert{
+	border-radius: 0px;
+	margin-bottom: 0px;
+	padding-left: 70px;
+	padding-right: 90px;
+}
+
+.navbar {
+	margin-bottom: 0px;
+}
+
+.grey {
+	background-color: #F5F5F5;
+}
+
+.container2 {
+	margin: 50px 120px 50px 120px;
+}
+
+.container3 {
+	margin: 100px 120px 100px 120px;
+}
+
+.weight500 {
+	font-weight: 500;
+}
+
+.citation {
+	background-image: url(image_path('citation.png'));
+	background-size: cover;
+   background-repeat: no-repeat;
+   color: #000000;
+   background-position: 0% 50%;
+   height: 350px;
+   padding-top: 80px;
+   margin-bottom: 0px;
+}
+
+.margin-bottom {
+	margin-bottom: 50px;
+}
+
+.box {
+	border-bottom:4px solid;
+	border-color: #FFFFFF;
+}
+
+.box:hover {
+	border-color: #000000;
+}
+
+.jumbotron {
+	 background-image: url(image_path('jumbotron.jpg'));
+	 background-size: cover;
+   background-repeat: no-repeat;
+   color: #000000;
+   background-position: 0% 50%;
+   height: 500px;
+   padding-top: 80px;
+   margin-bottom: 0px;
+} 
+
+.footer {
+	background-color: #282C37;
+	color: #FFFFFF;
+}
+
+.btn-home{
+	width: 250px;
+	height: 40px;
+	font-size: 14px;
+	font-weight: 600;
+}
+
+.medium {
+	width: 60px;
+}
 
 .center{
 	text-align: center;
@@ -12,6 +92,7 @@ $jumbotron-bg: #FFFFFF;
 
 .navbar-brand {
 	font-weight: bold;
+	font-size: 30px;
 }
 
 .rememberme {

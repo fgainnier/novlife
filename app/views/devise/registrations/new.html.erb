@@ -1,6 +1,8 @@
+<div class="container2">
+<div class="col-md-6 col-md-offset-3">
 <div class="panel panel-default">
   <div class="panel-heading">
-    <h2>Sign up</h2>
+    <h2><strong>Inscription</strong>  </h2>
   </div>
 
   <div class="panel-body">
@@ -13,7 +15,7 @@
       </div>
 
       <div class="form-group">
-        <%= f.label :password %>
+        <%= f.label :mot_de_passe %>
         <% if @minimum_password_length %>
         <em>(<%= @minimum_password_length %> characters minimum)</em>
         <% end %><br />
@@ -21,12 +23,12 @@
       </div>
 
       <div class="form-group">
-        <%= f.label :password_confirmation %><br />
+        <%= f.label :confirmation_du_mot_de_passe %><br />
         <%= f.password_field :password_confirmation, autocomplete: "off", class: "form-control" %>
       </div>
 
       <div class="form-group">
-        <%= f.submit "Sign up", class: "btn btn-primary" %>
+        <%= f.submit "S'inscrire", class: "btn btn-primary" %>
       </div>
     <% end %>
   </div>
@@ -35,4 +37,6 @@
     <%= render "devise/shared/links" %>
     </div>
 
+</div>
+</div>
 </div>

@@ -1,4 +1,4 @@
-  <tbody>
+<tbody>
     <%= form_for order_item, remote: true do |f| %>
       <tr>
         <td><%= product.name %></td>
@@ -15,5 +15,5 @@
         <td><%= number_to_currency order_item.total_price %></td>
       </tr>
     <% end %>
-  </tbody>
+</tbody>
 
